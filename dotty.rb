@@ -1,7 +1,4 @@
 class Dotty < Formula
-
-
-  1 class Dotty < Formula
   desc "Experimental Scala Compiler"
   homepage "http://dotty.epfl.ch/"
   url "http://dotty.epfl.ch/dotty/dotty-0.1.1.tar.gz"
