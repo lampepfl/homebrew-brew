@@ -19,13 +19,14 @@ class Dotty < Formula
     file = testpath/"Test.scala"
     file.write <<-EOS.undent
       object Test {
-        def main(args: Array[String]) {
+        def main(args: Array[String]) = {
           println(s"${2 + 2}")
         }
       }
     EOS
 
-    out = shell_output("#{bin}/dotr #{file}").strip
+    shell_output("#{bin}/dotc #{file}")
+    out = shell_output("#{bin}/dotr Test").strip
 
     assert_equal "4", out
   end
