@@ -1,2 +1,2 @@
-brew install lampepfl/brew/dotty
-brew test dotty
+brew install dotty.rb
+brew test dotty.rb
