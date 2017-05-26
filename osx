@@ -1,0 +1,2 @@
+brew install lampepfl/brew/dotty
+brew test dotty
