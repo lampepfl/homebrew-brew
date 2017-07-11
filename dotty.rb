@@ -37,7 +37,7 @@ class Dotty < Formula
     Hello, world!
     =============
     EOS
-    shell_output("#{bin}/dotd -siteroot #{testpath}/site #{file}")
+    shell_output("#{bin}/dotd -siteroot #{testpath}/site -project Hello #{file}")
     index_file = File.open("#{testpath}/site/_site/index.html", "rb").read
     assert index_file.include? '<h1><a href="#hello-world" id="hello-world">Hello, world!</a></h1>'
   end
