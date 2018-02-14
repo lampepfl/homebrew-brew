@@ -17,7 +17,7 @@ class Dotty < Formula
   test do
     # test dotc and dotr:
     file = testpath/"Test.scala"
-    file.write <<-EOS.undent
+    file.write <<~EOS
       object Test {
         def main(args: Array[String]) = {
           println(s"${2 + 2}")
@@ -33,7 +33,7 @@ class Dotty < Formula
     # test dotd:
     Dir.mkdir "#{testpath}/site"
     index_out = testpath/"site"/"index.md"
-    index_out.write <<-EOS.undent
+    index_out.write <<~EOS
     Hello, world!
     =============
     EOS
