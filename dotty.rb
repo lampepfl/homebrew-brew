@@ -1,13 +1,13 @@
 class Dotty < Formula
   desc "Experimental Scala Compiler"
   homepage "http://dotty.epfl.ch/"
-  url "https://github.com/lampepfl/dotty/releases/download/0.9.0-RC1/dotty-0.9.0-RC1.tar.gz"
-  sha256 "1c24692081231415cb560ff1288ede3f0d28c8b994ce8ca7c7b06edf7978bfb8"
+  url "https://github.com/lampepfl/dotty/releases/download/0.10.0-RC1/dotty-0.10.0-RC1.tar.gz"
+  sha256 "93945ab04f1553a62ac72e2fc72360e93833f0aaaf8128017d29f56e1a803b69"
   # mirror "https://www.scala-lang.org/files/archive/scala-2.12.2.tgz"
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on :java => "1.8+"
 
   def install
     rm_f Dir["bin/*.bat"]
