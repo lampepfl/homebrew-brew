@@ -1,8 +1,8 @@
 class Dotty < Formula
   desc "Experimental Scala Compiler"
   homepage "http://dotty.epfl.ch/"
-  url "https://github.com/lampepfl/dotty/releases/download/0.17.0-RC1/dotty-0.17.0-RC1.tar.gz"
-  sha256 "b448bed1e8b6b39787a1008c577ab36e16298a69a933ebd68160bc5b2641d727"
+  url "https://github.com/lampepfl/dotty/releases/download/0.18.1-RC1/dotty-0.18.1-RC1.tar.gz"
+  sha256 "dd534eaa1bfd355b8a542b68b04c51580f44e431ebe0a2bccf8181c129578ca9"
   # mirror "https://www.scala-lang.org/files/archive/scala-2.12.2.tgz"
 
   bottle :unneeded
