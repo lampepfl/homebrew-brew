@@ -1,3 +1,2 @@
-brew update
 brew install dotty.rb
 brew test dotty.rb
