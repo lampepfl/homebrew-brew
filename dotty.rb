@@ -5,8 +5,6 @@ class Dotty < Formula
   sha256 "f5bb19d85b486fa02f0375b7af656fd1d3cd89cb988cc073dd7e3ccf8e40beff"
   # mirror "https://www.scala-lang.org/files/archive/scala-2.12.2.tgz"
 
-  bottle :unneeded
-
   depends_on "openjdk@8"
 
   def install
